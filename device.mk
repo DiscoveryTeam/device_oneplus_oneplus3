@@ -144,19 +144,11 @@ PRODUCT_COPY_FILES += \
     $(TOPDIR)frameworks/av/services/audiopolicy/config/r_submix_audio_policy_configuration.xml:/system/etc/r_submix_audio_policy_configuration.xml \
     $(TOPDIR)frameworks/av/services/audiopolicy/config/usb_audio_policy_configuration.xml:/system/etc/usb_audio_policy_configuration.xml
 
-<<<<<<< HEAD
-# ANT+
-=======
-# Browser
-#PRODUCT_PACKAGES += \
-    Gello
-
 # Camera
 PRODUCT_PACKAGES += \
     Camera2
 
 # Device config scripts
->>>>>>> 7a5f436... XiaomiDoze: don't use CM's stuff
 PRODUCT_PACKAGES += \
     AntHalService \
     com.dsi.ant.antradio_library \
