@@ -129,3 +129,6 @@ persist.timed.enable=true
 
 # Wifi
 wifi.interface=wlan0
+
+#force HAL1 for some apps
+camera.hal1.packagelist=org.codeaurora.snapcam,com.snapchat.android
