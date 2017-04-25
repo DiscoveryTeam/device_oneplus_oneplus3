@@ -301,6 +301,9 @@ PRODUCT_PACKAGES += \
     libxml2 \
     libprotobuf-cpp-full
 
+# Telephony
+PRODUCT_BOOT_JARS += qti-telephony-common
+
 # Sensors
 PRODUCT_PACKAGES += \
     sensors.msm8996
