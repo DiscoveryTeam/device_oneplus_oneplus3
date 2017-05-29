@@ -333,7 +333,8 @@ PRODUCT_COPY_FILES += \
 
 # For android_filesystem_config.h
 PRODUCT_PACKAGES += \
-    fs_config_files
+    fs_config_files \
+    fs_config_dirs
 
 # Inherit from oppo-common
 $(call inherit-product, device/oppo/common/common.mk)
