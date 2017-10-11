@@ -21,10 +21,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from oneplus3 device
 $(call inherit-product, device/oneplus/oneplus3/device.mk)
 
-# Inherit from ElixiumOS common vendor makefile
-$(call inherit-product, vendor/elixium/common.mk)
+# Inherit some common Discovery stuff.
+$(call inherit-product, vendor/discovery/config/common_full_phone.mk)
 
-PRODUCT_NAME := elix_oneplus3
+PRODUCT_NAME := discovery_oneplus3
 PRODUCT_DEVICE := oneplus3
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
@@ -32,6 +32,3 @@ PRODUCT_BRAND := OnePlus
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 TARGET_VENDOR := oneplus
-
-# Unofficial build ID
-TARGET_UNOFFICIAL_BUILD_ID := Sultan

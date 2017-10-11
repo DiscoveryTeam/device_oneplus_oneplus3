@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/elix_oneplus3.mk 
+	$(LOCAL_DIR)/discovery_oneplus3.mk 
